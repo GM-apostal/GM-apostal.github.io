@@ -407,17 +407,15 @@ div.Ssylki-manga:hover strong:after {
    justify-content: center;
    width: 100%;
    max-width: 1400px;
-   pointer-events: none;
    margin: auto;
+   pointer-events: none;
 }
 .Ssylki-Characters {
-   display: inline-flex;
+   display: flex;
    width: calc(100% / 7);
-   vertical-align: top;
-   height: auto;
-   overflow: hidden;
-   padding: 0.7%;
    margin: -1.6% -0.5%;
+   padding: 0.7%;
+   overflow: hidden;
    background-color: rgba(var(--block-color), 0.4);
    background: url(/\x/dere.shikimori.one/system/images/original/113449.gif?1614959521);
    background-size: contain;
@@ -491,7 +489,6 @@ div.Ssylki-Characters:hover .b-link {
   .Ssylki-Characters .b-link:after {
    visibility: visible; 
 }}
-
 .Ssylki-3:nth-child(1) .Ssylki-Characters:nth-child(1) > strong:after {
   background: url("//moe.shikimori.one/system/images/original/113452.gif?1614961166") 50% / cover;
 }
