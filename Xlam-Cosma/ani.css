@@ -91,6 +91,7 @@
   padding: 0.3125rem 0.3125rem 0.3125rem 0.75rem;
   border-radius: 0.25rem;
   top: 0.5rem;
+  height: 195px;
   max-height: 195px;
   overflow-x: hidden;
   background: linear-gradient(to right, #373737, #444343d9, #373737);
