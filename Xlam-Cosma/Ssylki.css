@@ -411,7 +411,7 @@ div.Ssylki-manga:hover strong:after {
    pointer-events: none;
 }
 .Ssylki-Characters {
-   display: flex;
+   display: inline-flex;
    width: calc(100% / 7);
    margin: -1.6% -0.5%;
    padding: 0.7%;
