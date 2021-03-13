@@ -392,6 +392,10 @@ div.Ssylki-manga:hover strong:after {
 .Ssylki-manga:nth-child(12) > strong:after {background-image: url(//kawai.shikimori.one/system/user_images/original/208335/1412836.jpg);}
 .Ssylki-manga:nth-child(13) > strong:after {background-image: url(//moe.shikimori.one/system/user_images/original/208335/1412837.jpg);}
 
+div.Ssylki-anime:hover .Comments,
+div.Ssylki-manga:hover .Comments {
+   opacity: 1;
+}
 .Comments {
    position: absolute;
    display: flex;
