@@ -100,13 +100,14 @@ div.Ssylki-anime:hover .Evaluation {
 }
 .Ssylki-anime .Evaluation {
    position: absolute;
+   top: 0.8rem;
+   left: 0;
    padding: 6px 8px;
    border-radius: 0 5px 5px 0;
    font-size: 14px;
    line-height: 0.8;
    pointer-events: none;
    z-index: 8;
-   margin: 0.45rem 0 0 -0.5rem;
    text-align: center;
    background: #6e1515;
    border-color: #6e1515;
@@ -294,13 +295,14 @@ div.Ssylki-manga:hover .Evaluation {
 }
 .Ssylki-manga .Evaluation {
    position: absolute;
+   top: 0.8rem;
+   left: 0;
    padding: 6px 8px;
    border-radius: 0 5px 5px 0;
    font-size: 14px;
    line-height: 0.8;
    pointer-events: none;
    z-index: 8;
-   margin: 0.45rem 0 0 -0.5rem;
    text-align: center;
    background: #6e1515;
    border-color: #6e1515;
