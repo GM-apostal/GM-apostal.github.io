@@ -18,6 +18,7 @@
    margin: 5px 5px 5px 2px;
 }
 .Ssylki-anime {
+   position: relative;
    display: inline-flex;
    width: calc(100% / 6);
    vertical-align: top;
@@ -213,6 +214,7 @@ div.Ssylki-anime:hover strong:after {
    margin: 5px 5px 5px 2px;
 }
 .Ssylki-manga {
+   position: relative;
    display: inline-flex;
    width: calc(100% / 6);
    vertical-align: top;
