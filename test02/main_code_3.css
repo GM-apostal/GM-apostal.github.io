@@ -2716,12 +2716,13 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode, .b-anime_status_tag.
     padding: 5px;
     border-radius: 0.7rem;
     pointer-events: all;
-    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.25));
+    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.25))!important;
     box-shadow: 0 2px 6px 2px #00000030;
     -webkit-transition: box-shadow 0.25s ease;
   }
   .about .b-catalog_entry .cover:hover {
     border-radius: 0.6rem;
+    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.35))!important;  
   }
   .about .cc-9-g0 > .c-column .cover,
   .about .cc-8-g0 > .c-column .cover,
