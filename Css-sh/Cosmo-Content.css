@@ -4,7 +4,7 @@
   text-align: center;
 }
 .about .Animes_Mangas {
-  padding: 0.5rem 0 3.2rem 0;
+  padding: 0.5rem 0 0.2rem 0;
 }
 .about .Animes_Mangas .b-catalog_entry,
 .about .Animes_Mangas .b-catalog_entry:last-child {
@@ -220,7 +220,7 @@ display: none;
   text-align: center;
 }
 .about .Animes_Mangas-1 {
-  padding: 0.5rem 0 3rem 0;
+  padding: 0.5rem 0 0.3rem 0;
 }
 .about .Animes_Mangas-1 .b-catalog_entry,
 .about .Animes_Mangas-1 .b-catalog_entry:last-child {
