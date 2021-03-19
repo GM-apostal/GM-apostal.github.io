@@ -1,23 +1,27 @@
  /*------*/
 @media screen and (min-width: 1500px) {
-  .about .Razmer-v2-row-0 .Animes_Mangas .b-catalog_entry {
+  .about .Razmer-v2-row-0 .Animes_Mangas .b-catalog_entry,
+  .about .Razmer-v2-row-0 .Animes_Mangas .b-catalog_entry:last-child {
     width: calc(100% / 5) !important;
   }
 }
  /*------*/
 @media screen and (min-width: 1200px) {
-  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry {
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
     width: calc(100% / 8) !important;
   }
 }
 @media screen and (min-width: 1500px) {
-  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry {
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
     width: calc(100% / 9) !important;
   }
 }
 
 @media screen and (min-width: 1900px) {
-  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry {
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
     width: calc(100% / 10) !important;
   }
 }
