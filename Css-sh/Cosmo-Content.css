@@ -123,7 +123,6 @@
   pointer-events: none;
   filter: contrast(102%) grayscale(15%);
   box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 50%);
-  image-rendering: -webkit-optimize-contrast;
   transition: box-shadow 0.4s ease;
   -webkit-transition: box-shadow 0.4s ease;
 }
@@ -334,8 +333,6 @@ display: none;
   background-color: #171616;
   pointer-events: none;
   filter: contrast(102%) grayscale(15%);
-  box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 50%);
-  image-rendering: -webkit-optimize-contrast;
   transition: box-shadow 0.4s ease;
   -webkit-transition: box-shadow 0.4s ease;
 }
@@ -566,8 +563,6 @@ div.Ssylki-anime-v-1-standard:hover::before {
   background-size: cover;
   border-radius: 0.2rem 0.2rem 0 0;
   transition: filter 0.4s ease, box-shadow 0.4s ease;
-  image-rendering: -webkit-optimize-contrast;
-  box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 50%);
   z-index: -1;
 }
 
@@ -642,7 +637,6 @@ div.Ssylki-anime-v-1-standard:hover .Fon-standard {
   background-position: center;
   border-radius: 0.2rem 0.2rem 0 0;
   z-index: -1;
-  image-rendering: -webkit-optimize-contrast;
 }
 .Ssylki-anime-v-1-standard .progress-standard {
   position: absolute;
@@ -830,7 +824,6 @@ div.Ssylki-anime-v-1:hover::before {
   background-size: cover;
   border-radius: 0.2rem 0.2rem 0 0;
   transition: filter 0.4s ease, box-shadow 0.4s ease;
-  image-rendering: -webkit-optimize-contrast;
   box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 50%);
   z-index: -1;
 }
@@ -906,7 +899,6 @@ div.Ssylki-anime-v-1:hover .Fon {
   background-position: center;
   border-radius: 0.2rem 0.2rem 0 0;
   z-index: -1;
-  image-rendering: -webkit-optimize-contrast;
 }
 .Ssylki-anime-v-1 .progress {
   position: absolute;
@@ -1078,7 +1070,6 @@ div.Ssylki-Characters:hover .Text-1:after {
   background-repeat: no-repeat !important;
   border-radius: 0.2rem 0.2rem 0 0;
   transition: filter 0.3s ease;
-  image-rendering: -webkit-optimize-contrast;
   z-index: -1;
 }
 @media screen and (max-width: 1024px) {
