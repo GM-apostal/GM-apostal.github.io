@@ -118,7 +118,7 @@
   border-radius: 0.2rem 0.2rem 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 5%;
+  background-position: center 15%;
   background-color: #171616;
   pointer-events: none;
   filter: contrast(102%) grayscale(15%);
@@ -329,7 +329,7 @@ display: none;
   border-radius: 0.2rem 0.2rem 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 5%;
+  background-position: center;
   background-color: #171616;
   pointer-events: none;
   filter: contrast(102%) grayscale(15%);
