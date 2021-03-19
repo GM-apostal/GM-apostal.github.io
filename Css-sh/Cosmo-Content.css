@@ -194,7 +194,7 @@ display: none;
     width: calc(100% / 2) !important;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
   .about .Razmer-v2-row-0 .Animes_Mangas .b-catalog_entry {
     width: calc(100% / 3) !important;
   }
@@ -938,12 +938,12 @@ div.Ssylki-anime-v-1:hover .progress {
     width: calc(100% / 1 - 1 * 1%);
   }
 }
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 600px) {
   .Ssylki-anime-v-1 {
     width: calc(100% / 2 - 1 * 1%);
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   .Ssylki-anime-v-1 {
     width: calc(100% / 3 - 1 * 1%);
   }
