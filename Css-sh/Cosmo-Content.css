@@ -432,12 +432,7 @@ display: none;
 
   }
 }
-@media screen and (min-width: 1200px) {
-  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry {
-    width: calc(100% / 8) !important;
 
-  }
-}
 
 
 /*-------------------------------*/
