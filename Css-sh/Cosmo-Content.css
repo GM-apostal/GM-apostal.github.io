@@ -1272,7 +1272,7 @@ div.Ssylki-anime:hover .Text-2 {
     width: calc(100% / 2);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
   .Ssylki-anime {
     width: calc(100% / 3);
   }
