@@ -1,4 +1,5 @@
 .ani {
+  position: relative;
   display: inline-block;
   margin: 0 0.4% 0.4% 0.4%;
   overflow: hidden;
