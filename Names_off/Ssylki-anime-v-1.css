@@ -1,0 +1,39 @@
+.Ssylki-anime-v-1-blok-1 {
+   margin: 0 0 3rem 0;
+}
+.Ssylki-anime-v-1 {
+   margin-bottom: 1rem;
+   z-index: 1;
+}
+div.Ssylki-anime-v-1:hover {
+   z-index: 10;
+}
+.Ssylki-anime-v-1::before {
+   margin: 0;
+   left: 0;
+   right: 0;
+   top: 0;
+   filter: blur(3.5px);
+}
+.Ssylki-anime-v-1 .Text-dno-ramka {
+   z-index: 3;
+   padding-top: 53%;
+}
+div.Ssylki-anime-v-1:hover .Text-dno-ramka {
+   z-index: 4;
+   padding-top: 59%;
+}
+.Ssylki-anime-v-1,
+.Ssylki-anime-v-1::before,
+.Ssylki-anime-v-1 .Text-dno-ramka {
+   transition: 0s ease-in-out, height 0.4s ease-in-out, z-index 0.4s ease-in-out,
+      opacity 0.4s ease-in-out, padding 0.4s ease-in-out;
+}
+.Ssylki-anime-v-1 .Text-dno-ramka,
+.Ssylki-anime-v-1::before {
+   height: calc(100% + 0rem);
+}
+div.Ssylki-anime-v-1:hover .Text-dno-ramka,
+div.Ssylki-anime-v-1:hover::before {
+   height: calc(100% + 3rem);
+}
