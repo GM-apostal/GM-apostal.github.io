@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
    #profiles_show .profile-head .c-brief {
-      margin-top: -1vh;
+      margin-top: -3vh;
       padding: 0;
       justify-content: center;
       align-items: center;
@@ -12,7 +12,7 @@
    #profiles_show .profile-head .c-brief header {
       text-align: center;
       margin: 0;
-      padding: 1.25rem 0;
+      padding: 0.65rem 0;
    }
    #profiles_show .profile-actions {
       bottom: 9rem;
@@ -24,7 +24,7 @@
       position: absolute;
       visibility: hidden;
       margin: 0;
-      padding: 15.25rem 0 0;
+      padding: 12.8rem 0 0;
       justify-content: center;
       bottom: 0;
    }
