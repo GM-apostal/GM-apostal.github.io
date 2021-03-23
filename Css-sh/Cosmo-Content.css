@@ -1096,6 +1096,7 @@ div.Ssylki-Characters:hover .Text-1:after {
   border-radius: 0.2rem 0.2rem 0 0;
   transition: filter 0.3s ease;
   z-index: -1;
+      image-rendering: -webkit-optimize-contrast;
 }
 @media screen and (max-width: 1024px) {
   .Ssylki-Characters .Text-1 {
