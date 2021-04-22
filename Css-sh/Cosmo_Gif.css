@@ -235,11 +235,11 @@
         position: relative;
         transition: none !important;
         padding: 0;
-        overflow-y: auto !important;
+        /*overflow-y: auto !important;
         overflow-x: hidden !important;
         max-height: 600px !important;
         min-height: 63.5rem !important;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem;*/
     }
     .p-clubs-images .b-gallery.block {
         margin-bottom: 1rem;
