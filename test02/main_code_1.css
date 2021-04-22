@@ -2591,7 +2591,10 @@ p {
 
 
 
-
+.l-top_menu-v2 .menu-dropdown.profile > span img {
+    height: 2rem;
+    width: 2rem;
+}
 
 
 
