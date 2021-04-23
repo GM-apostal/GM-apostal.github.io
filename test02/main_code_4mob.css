@@ -276,7 +276,7 @@
       animation-delay: 5s;
    }
    .l-page {
-      background-color: rgba(var(--menu-back), 0.8);
+      background-color: rgba(var(--menu-back), 0.7);
    }
    .l-page {
       margin: 15px auto 15px;
