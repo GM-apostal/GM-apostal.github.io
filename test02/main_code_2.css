@@ -2717,8 +2717,12 @@ body#tests_reset_styles_cache input[type="submit"] {
     margin-top: 0;
     right: 5px;
     height: 28px;
-    z-index:1;
+    z-index: 1;
     
+    
+}
+.p-dashboards-show .subheadline-buttons {
+    z-index: 2;    
 }
 .subheadline-buttons a {
     display: flex;
