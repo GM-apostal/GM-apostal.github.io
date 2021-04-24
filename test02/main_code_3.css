@@ -70,13 +70,13 @@ img[alt='morr'] {
     border: 2px solid #a7843d;
 }
 .b-comment > .inner header a[href*="/Cosmo+%E2%98%AD"] img {
-    border: 2px solid #3ba2bd;
+    border: 2px solid #a6c2ca;
 }
 .name-date a.name[title="EngiNier"], .b-comment>.inner a.name[href*="/EngiNier"], .subheadline a[title="EngiNier"] {
     color: #e2e2e2!important;
 }
 .name-date a.name[title="Cosmo+%E2%98%AD"], .b-comment>.inner a.name[href*="/Cosmo+%E2%98%AD"], .subheadline a[title="Cosmo+%E2%98%AD"] {
-    color: #9ee0f1!important;
+    color: #a6c2ca!important;
 }
   
   .b-user16 a[title="morr"] {
