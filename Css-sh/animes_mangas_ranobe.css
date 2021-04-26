@@ -62,7 +62,7 @@
     width: -webkit-calc(100% / 4 - 0.1 * 0.1em - 1 * 0.6%);
     width: calc(100% / 4 - 0.1 * 0.1em - 1 * 0.6%);
     margin: 03px 0.3% 3px 0.3% !important;
-    height: 8.1875rem;
+    height: 8.8875rem;
     float: left;
     padding: 0.3125rem;
     border-radius: 0.4rem;
@@ -174,7 +174,7 @@
   }
   .p-animes_collection-index .b-collection-filters .block-list li::before,
   .p-animes_collection-index .b-collection-filters .b-block_list li::before {
-    line-height: 1;
+    line-height: 1.72;
     font-size: 17px;
   }
 
@@ -262,7 +262,7 @@
   .p-animes_collection-index .menu-slide-outer.x199 .l-content {
     width: 100%;
     float: left;
-    margin: 18.1rem 0 1% 0;
+    margin: 19rem 0 1% 0;
     -webkit-transition: none;
     transition: none;
   }
@@ -290,7 +290,7 @@
   }
   .p-animes_collection-index .b-block_list li.selected {
     background: rgba(var(--shadows-color), 0.15);
-    border-radius: 10px;
+    border-radius: 10rem;
   }
   .p-animes_collection-index.x1200 .cc-entries > .c-column,
   .p-mangas_collection-index.x1200 .cc-entries > .c-column,
@@ -391,7 +391,8 @@
   }
   .p-animes_collection-index .b-block_list li {
     font-size: 12px;
-    line-height: 20.34px;
+    line-height: 30px;
+    height: 2rem;
   }
   .p-animes_collection-index .b-collection-filters .block-list li > input,
   .p-animes_collection-index .b-collection-filters .b-block_list li > input {
