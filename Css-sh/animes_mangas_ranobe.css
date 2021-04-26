@@ -8,6 +8,10 @@
   margin: 0 0 0 0 !important;
   line-height: 0;
 }
+
+.p-animes_collection-index .block::-webkit-scrollbar {width: 8px;}
+
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .p-animes_collection-index .pagination {
     width: 90%;
