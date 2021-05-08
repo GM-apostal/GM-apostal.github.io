@@ -1271,7 +1271,11 @@ div.Ssylki-anime:hover > strong > a::before {
 div.Ssylki-anime:hover .Text-2 {
   opacity: 0;
 }
-
+.Ssylki-anime span,
+.Ssylki-anime-v-1 span,
+.Ssylki-anime-v-1-standard span {
+     display: none;
+}
 @media screen and (max-width: 248px) {
   div.Ssylki-anime .Text-2 {
     opacity: 0;
