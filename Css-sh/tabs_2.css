@@ -4,20 +4,25 @@
   display: flex;
   max-width: var(--tabs-2-width);
   margin: var(--tabs-2-margin);
+  border: 1px solid rgba(var(--tabs-2-1px-border-sol), 1);
   border-radius: var(--tabs-2-border-radius);
   font-size: var(--tabs-2-font-size);
   line-height: var(--tabs-2-line-height);
   box-shadow: 0 2px 8px rgba(var(--tabs-2-box-shadow), 0.25);
+  overflow: hidden;
 }
 /* Контейнер Кнопок */
 .tabs-2 .header {
   display: flex;
   width: auto;
   user-select: none;
-  border: 1px solid rgba(var(--header-border-solid), 1);
+  border-right: 1px solid rgba(var(--tabs-2-1px-border-sol), 1);
   background: rgba(var(--header-background), 0.15);
   text-shadow: 0 1px 2px rgb(var(--header-text-shadow), 1);
-  border-radius: var(--header-border-radius);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
   flex-direction: column;
   grid-row-gap: var(--header-grid-row-gap);
   padding: var(--header-padding);
@@ -45,7 +50,6 @@
   border-bottom-color: rgba(var(--header-div-border-bottom-color), 0.9);
   border-top-color: rgba(var(--header-div-border-top-color), 0.9);
 }
-
 .tabs-2 .header div:hover {
   background: rgba(var(--header-div-hover-background), 0.7);
 }
@@ -55,18 +59,19 @@
   background-color: rgba(var(--header-div-active-background), 0.8);
   color: rgba(var(--header-div-active-color), 0.9);
 }
-
 /* Контейнер Содержимого */ /* Цвет и размер линии разделяющая Кнопки и Содержимое */
 .tabs-2 .container {
   flex-grow: 1;
   background-color: rgba(var(--background-container), 0.3);
-  border: 1px solid rgba(var(--border-1px-container), 1);
   border-radius: var(--border-radius-container);
   padding: var(--padding-container);
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
   border-left: none;
   height: auto;
 }
-
 /* Содержимое */
 .tabs-2 .container > div {
   display: none !important;
@@ -78,7 +83,6 @@
   transition: opacity 0.02s, visibility 0.02s;
   transition-delay: 0s, 0s;
 }
-
 .tabs-2 .container > div:not(.hidden) {
   display: block !important;
   visibility: visible;
@@ -87,11 +91,9 @@
   transition: opacity 0.02s, visibility 0.02s;
   transition-delay: 0.02s, 0.02s;
 }
-
 .tabs-2 .b-image img {
   width: 100%;
 }
-
 .hr {
   height: var(--hr-height-1px);
   margin: var(--hr-margin);
@@ -102,21 +104,15 @@
     transparent
   );
 }
-.tabs-2 div.button-h-1,
-.tabs-2 div.button-h-2,
-.tabs-2 div.button-h-3,
-.tabs-2 div.button-h-4,
-.tabs-2 div.button-h-5,
-.tabs-2 div.button-h-6,
-.tabs-2 div.button-h-7,
-.tabs-2 div.button-h-8,
-.tabs-2 div.button-h-9,
-.tabs-2 div.button-h-10,
-.tabs-2 div.button-h-11,
-.tabs-2 div.button-h-12,
-.tabs-2 div.button-h-13,
-.tabs-2 div.button-h-14,
-.tabs-2 div.button-h-15 {
+.tabs-2 div.button-h-1,.tabs-2 div.button-h-2,.tabs-2 div.button-h-3,
+.tabs-2 div.button-h-4,.tabs-2 div.button-h-5,.tabs-2 div.button-h-6,
+.tabs-2 div.button-h-7,.tabs-2 div.button-h-8,.tabs-2 div.button-h-9,
+.tabs-2 div.button-h-10,.tabs-2 div.button-h-11,.tabs-2 div.button-h-12,
+.tabs-2 div.button-h-13,.tabs-2 div.button-h-14,.tabs-2 div.button-h-15,
+.tabs-2 div.button-h-16,.tabs-2 div.button-h-17,.tabs-2 div.button-h-18,
+.tabs-2 div.button-h-19,.tabs-2 div.button-h-20,.tabs-2 div.button-h-21,
+.tabs-2 div.button-h-22,.tabs-2 div.button-h-23,.tabs-2 div.button-h-24,
+.tabs-2 div.button-h-25 {
   position: absolute;
   top: 0;
   left: 0;
@@ -130,21 +126,15 @@
   box-shadow: none !important;
   border: none !important;
 }
-.tabs-2 div.button-h-1::after,
-.tabs-2 div.button-h-2::after,
-.tabs-2 div.button-h-3::after,
-.tabs-2 div.button-h-4::after,
-.tabs-2 div.button-h-5::after,
-.tabs-2 div.button-h-6::after,
-.tabs-2 div.button-h-7::after,
-.tabs-2 div.button-h-8::after,
-.tabs-2 div.button-h-9::after,
-.tabs-2 div.button-h-10::after,
-.tabs-2 div.button-h-11::after,
-.tabs-2 div.button-h-12::after,
-.tabs-2 div.button-h-13::after,
-.tabs-2 div.button-h-14::after,
-.tabs-2 div.button-h-15::after {
+.tabs-2 div.button-h-1::after,.tabs-2 div.button-h-2::after,.tabs-2 div.button-h-3::after,
+.tabs-2 div.button-h-4::after,.tabs-2 div.button-h-5::after,.tabs-2 div.button-h-6::after,
+.tabs-2 div.button-h-7::after,.tabs-2 div.button-h-8::after,.tabs-2 div.button-h-9::after,
+.tabs-2 div.button-h-10::after,.tabs-2 div.button-h-11::after,.tabs-2 div.button-h-12::after,
+.tabs-2 div.button-h-13::after,.tabs-2 div.button-h-14::after,.tabs-2 div.button-h-15::after,
+.tabs-2 div.button-h-16::after,.tabs-2 div.button-h-17::after,.tabs-2 div.button-h-18::after,
+.tabs-2 div.button-h-19::after,.tabs-2 div.button-h-20::after,.tabs-2 div.button-h-21::after,
+.tabs-2 div.button-h-22::after,.tabs-2 div.button-h-23::after,.tabs-2 div.button-h-24::after,
+.tabs-2 div.button-h-25::after {
   font: normal normal normal 16px/1.6 FontAwesome;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -159,22 +149,15 @@
   bottom: 0;
   margin: auto;
 }
-
-.tabs-2 div.button-h-1::before,
-.tabs-2 div.button-h-2::before,
-.tabs-2 div.button-h-3::before,
-.tabs-2 div.button-h-4::before,
-.tabs-2 div.button-h-5::before,
-.tabs-2 div.button-h-6::before,
-.tabs-2 div.button-h-7::before,
-.tabs-2 div.button-h-8::before,
-.tabs-2 div.button-h-9::before,
-.tabs-2 div.button-h-10::before,
-.tabs-2 div.button-h-11::before,
-.tabs-2 div.button-h-12::before,
-.tabs-2 div.button-h-13::before,
-.tabs-2 div.button-h-14::before,
-.tabs-2 div.button-h-15::before {
+.tabs-2 div.button-h-1::before,.tabs-2 div.button-h-2::before,.tabs-2 div.button-h-3::before,
+.tabs-2 div.button-h-4::before,.tabs-2 div.button-h-5::before,.tabs-2 div.button-h-6::before,
+.tabs-2 div.button-h-7::before,.tabs-2 div.button-h-8::before,.tabs-2 div.button-h-9::before,
+.tabs-2 div.button-h-10::before,.tabs-2 div.button-h-11::before,.tabs-2 div.button-h-12::before,
+.tabs-2 div.button-h-13::before,.tabs-2 div.button-h-14::before,.tabs-2 div.button-h-15::before,
+.tabs-2 div.button-h-16::before,.tabs-2 div.button-h-17::before,.tabs-2 div.button-h-18::before,
+.tabs-2 div.button-h-19::before,.tabs-2 div.button-h-20::before,.tabs-2 div.button-h-21::before,
+.tabs-2 div.button-h-22::before,.tabs-2 div.button-h-23::before,.tabs-2 div.button-h-24::before,
+.tabs-2 div.button-h-25::before {
   position: absolute;
   top: 0;
   left: -2rem;
@@ -196,25 +179,18 @@
   transition: 0.18s ease-in-out;
   pointer-events: none;
 }
-.tabs-2 .header div:hover div.button-h-1::before,
-.tabs-2 .header div:hover div.button-h-2::before,
-.tabs-2 .header div:hover div.button-h-3::before,
-.tabs-2 .header div:hover div.button-h-4::before,
-.tabs-2 .header div:hover div.button-h-5::before,
-.tabs-2 .header div:hover div.button-h-6::before,
-.tabs-2 .header div:hover div.button-h-7::before,
-.tabs-2 .header div:hover div.button-h-8::before,
-.tabs-2 .header div:hover div.button-h-9::before,
-.tabs-2 .header div:hover div.button-h-10::before,
-.tabs-2 .header div:hover div.button-h-11::before,
-.tabs-2 .header div:hover div.button-h-12::before,
-.tabs-2 .header div:hover div.button-h-13::before,
-.tabs-2 .header div:hover div.button-h-14::before,
-.tabs-2 .header div:hover div.button-h-15::before {
+.tabs-2 .header div:hover div.button-h-1::before,.tabs-2 .header div:hover div.button-h-2::before,.tabs-2 .header div:hover div.button-h-3::before,
+.tabs-2 .header div:hover div.button-h-4::before,.tabs-2 .header div:hover div.button-h-5::before,.tabs-2 .header div:hover div.button-h-6::before,
+.tabs-2 .header div:hover div.button-h-7::before,.tabs-2 .header div:hover div.button-h-8::before,.tabs-2 .header div:hover div.button-h-9::before,
+.tabs-2 .header div:hover div.button-h-10::before,.tabs-2 .header div:hover div.button-h-11::before,.tabs-2 .header div:hover div.button-h-12::before,
+.tabs-2 .header div:hover div.button-h-13::before,.tabs-2 .header div:hover div.button-h-14::before,.tabs-2 .header div:hover div.button-h-15::before,
+.tabs-2 .header div:hover div.button-h-16::before,.tabs-2 .header div:hover div.button-h-17::before,.tabs-2 .header div:hover div.button-h-18::before,
+.tabs-2 .header div:hover div.button-h-19::before,.tabs-2 .header div:hover div.button-h-20::before,.tabs-2 .header div:hover div.button-h-21::before,
+.tabs-2 .header div:hover div.button-h-22::before,.tabs-2 .header div:hover div.button-h-23::before,.tabs-2 .header div:hover div.button-h-24::before,
+.tabs-2 .header div:hover div.button-h-25::before {
   transform: scale(1);
   left: 2.55rem;
 }
-
 @media screen and (max-width: 1000px) {
   .tabs-2 {
     display: block;
@@ -230,6 +206,8 @@
     white-space: nowrap;
     padding: 0.5rem 0.5rem 0;
     border-radius: 0.65rem 0.65rem 0 0;
+    border-bottom: 1px solid rgba(var(--tabs-2-1px-border-sol), 1);
+    border-right: none;
     text-align: center;
   }
   .tabs-2 .header div {
@@ -242,26 +220,20 @@
     border-left: 1px solid rgba(var(--border-1px-container), 1);
   }
   .tabs-2 .header::-webkit-scrollbar-thumb {
-    border-radius: 0.14rem;
+    border-radius: 0rem;
   }
   .tabs-2 .header::-webkit-scrollbar {
     height: 8px;
   }
-  .tabs-2 div.button-h-1::before,
-  .tabs-2 div.button-h-2::before,
-  .tabs-2 div.button-h-3::before,
-  .tabs-2 div.button-h-4::before,
-  .tabs-2 div.button-h-5::before,
-  .tabs-2 div.button-h-6::before,
-  .tabs-2 div.button-h-7::before,
-  .tabs-2 div.button-h-8::before,
-  .tabs-2 div.button-h-9::before,
-  .tabs-2 div.button-h-10::before,
-  .tabs-2 div.button-h-11::before,
-  .tabs-2 div.button-h-12::before,
-  .tabs-2 div.button-h-13::before,
-  .tabs-2 div.button-h-14::before,
-  .tabs-2 div.button-h-15::before {
+  .tabs-2 div.button-h-1::before,.tabs-2 div.button-h-2::before,.tabs-2 div.button-h-3::before,
+  .tabs-2 div.button-h-4::before,.tabs-2 div.button-h-5::before,.tabs-2 div.button-h-6::before,
+  .tabs-2 div.button-h-7::before,.tabs-2 div.button-h-8::before,.tabs-2 div.button-h-9::before,
+  .tabs-2 div.button-h-10::before,.tabs-2 div.button-h-11::before,.tabs-2 div.button-h-12::before,
+  .tabs-2 div.button-h-13::before,.tabs-2 div.button-h-14::before,.tabs-2 div.button-h-15::before,
+  .tabs-2 div.button-h-16::before,.tabs-2 div.button-h-17::before,.tabs-2 div.button-h-18::before,
+  .tabs-2 div.button-h-19::before,.tabs-2 div.button-h-20::before,.tabs-2 div.button-h-21::before,
+  .tabs-2 div.button-h-22::before,.tabs-2 div.button-h-23::before,.tabs-2 div.button-h-24::before,
+  .tabs-2 div.button-h-25::before {
     display: none;
   }
 }
