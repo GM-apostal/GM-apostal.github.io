@@ -64,7 +64,6 @@
 .tabs-2 .container {
   flex-grow: 1;
   background-color: rgba(var(--background-container), 0.3);
-  border-radius: var(--border-radius-container);
   padding: var(--padding-container);
   border-top-right-radius: inherit;
   border-bottom-right-radius: inherit;
