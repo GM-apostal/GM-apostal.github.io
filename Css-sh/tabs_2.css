@@ -35,6 +35,7 @@
   height: var(--header-div-height);
   border-radius: var(--header-div-border-radius);
   line-height: 1.65;
+  font-size: var(--header-div-font-size);
   overflow: visible;
   text-align: center;
   align-items: center;
@@ -135,10 +136,13 @@
 .tabs-2 div.button-h-19::after,.tabs-2 div.button-h-20::after,.tabs-2 div.button-h-21::after,
 .tabs-2 div.button-h-22::after,.tabs-2 div.button-h-23::after,.tabs-2 div.button-h-24::after,
 .tabs-2 div.button-h-25::after {
-  font: normal normal normal 16px/1.6 FontAwesome;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: FontAwesome;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
   text-rendering: auto;
+  font-weight: normal;
+  line-height: 1.6;
+  font-size: inherit;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -148,6 +152,12 @@
   top: 0;
   bottom: 0;
   margin: auto;
+  
+  
+
+    
+    
+  
 }
 .tabs-2 div.button-h-1::before,.tabs-2 div.button-h-2::before,.tabs-2 div.button-h-3::before,
 .tabs-2 div.button-h-4::before,.tabs-2 div.button-h-5::before,.tabs-2 div.button-h-6::before,
