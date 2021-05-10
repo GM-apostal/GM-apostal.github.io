@@ -1273,7 +1273,8 @@ div.Ssylki-anime:hover .Text-2 {
 }
 .Ssylki-anime span,
 .Ssylki-anime-v-1 span,
-.Ssylki-anime-v-1-standard span {
+.Ssylki-anime-v-1-standard span,
+.Ssylki-Characters span {
      display: none;
 }
 @media screen and (max-width: 248px) {
