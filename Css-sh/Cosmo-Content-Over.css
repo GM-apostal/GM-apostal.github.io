@@ -29,12 +29,12 @@
 
 @media screen and (min-width: 1300px) {
   .Ssylki-anime-v-1-standard {
-    width: calc(100% / 8 - 1 * 1%);
+    width: calc(100% / 9 - 1 * 1%);
   }
 }
 @media screen and (min-width: 1450px) {
   .Ssylki-anime-v-1-standard {
-    width: calc(100% / 8 - 1 * 1%);
+    width: calc(100% / 10 - 1 * 1%);
   }
 }
 @media screen and (min-width: 1600px) {
