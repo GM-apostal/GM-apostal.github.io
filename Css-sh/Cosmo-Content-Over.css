@@ -39,7 +39,7 @@
 }
 @media screen and (min-width: 1600px) {
   .Ssylki-anime-v-1-standard {
-    width: calc(100% / 9 - 1 * 1%);
+    width: calc(100% / 11 - 1 * 1%);
     margin: 5px 0.37% 3.5rem 0.37%;
   }
 }
@@ -53,6 +53,13 @@
 @media screen and (min-width: 1600px) {
   .Ssylki-anime-v-1 {
     margin: 5px 0.37% 3.5rem 0.37%;
+   width: calc(100% / 6 - 1 * 1%);
+  }
+}
+@media screen and (min-width: 1900px) {
+  .Ssylki-anime-v-1 {
+    margin: 5px 0.37% 3.5rem 0.37%;
+   width: calc(100% / 7 - 1 * 1%);
   }
 }
 /*------*/
