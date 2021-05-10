@@ -615,7 +615,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
-  padding: 129% 1rem 0;
+  padding: 129% 0 0;
   border-radius: 0.25rem;
 }
 .Ssylki-anime-v-1-standard .Fon-standard {
@@ -716,7 +716,7 @@ div.Ssylki-anime-v-1-standard:hover .progress-standard {
 }
 @media screen and (min-width: 1080px) {
   .Ssylki-anime-v-1-standard {
-    width: calc(100% / 7 - 1 * 1%);
+    width: calc(100% / 8 - 1 * 1%);
   }
 }
 /*-------------------------------*/
@@ -876,7 +876,7 @@ div.Ssylki-anime-v-1:hover::before {
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
-  padding: 59% 1rem 0;
+  padding: 59% 0.15rem 0;
   border-radius: 0.25rem;
 }
 .Ssylki-anime-v-1 .Fon {
