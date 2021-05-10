@@ -615,7 +615,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
-  padding: 129% 0 0;
+  padding: 129% 0.15rem 0;
   border-radius: 0.25rem;
 }
 .Ssylki-anime-v-1-standard .Fon-standard {
