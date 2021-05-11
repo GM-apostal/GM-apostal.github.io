@@ -165,12 +165,12 @@
 }
 @media screen and (min-width: 340px) {
   .u2-carousel {
-    width: calc(100% / 1);
+    width: calc(100% / 2);
   }
 }
 @media screen and (min-width: 600px) {
   .u2-carousel {
-    width: calc(100% / 2);
+    width: calc(100% / 3);
   }
 }
 @media screen and (min-width: 800px) {
