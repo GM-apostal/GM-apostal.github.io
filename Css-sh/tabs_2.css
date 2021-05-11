@@ -97,23 +97,38 @@
 .hr {
   height: var(--hr-height-1px);
   margin: var(--hr-margin);
-  background-image: -webkit-linear-gradient(
-    left,
-    transparent,
-    rgb(var(--hr), 1),
-    transparent
-  );
+  background-image: -webkit-linear-gradient(left, transparent, rgb(var(--hr), 1), transparent);
 }
-.tabs-2 div.button-h-1,.tabs-2 div.button-h-2,.tabs-2 div.button-h-3,
-.tabs-2 div.button-h-4,.tabs-2 div.button-h-5,.tabs-2 div.button-h-6,
-.tabs-2 div.button-h-7,.tabs-2 div.button-h-8,.tabs-2 div.button-h-9,
-.tabs-2 div.button-h-10,.tabs-2 div.button-h-11,.tabs-2 div.button-h-12,
-.tabs-2 div.button-h-13,.tabs-2 div.button-h-14,.tabs-2 div.button-h-15,
-.tabs-2 div.button-h-16,.tabs-2 div.button-h-17,.tabs-2 div.button-h-18,
-.tabs-2 div.button-h-19,.tabs-2 div.button-h-20,.tabs-2 div.button-h-21,
-.tabs-2 div.button-h-22,.tabs-2 div.button-h-23,.tabs-2 div.button-h-24,
-.tabs-2 div.button-h-25,.tabs-2 div.button-h-26,.tabs-2 div.button-h-27,
-.tabs-2 div.button-h-28,.tabs-2 div.button-h-29,.tabs-2 div.button-h-30 {
+.tabs-2 div.button-h-1,
+.tabs-2 div.button-h-2,
+.tabs-2 div.button-h-3,
+.tabs-2 div.button-h-4,
+.tabs-2 div.button-h-5,
+.tabs-2 div.button-h-6,
+.tabs-2 div.button-h-7,
+.tabs-2 div.button-h-8,
+.tabs-2 div.button-h-9,
+.tabs-2 div.button-h-10,
+.tabs-2 div.button-h-11,
+.tabs-2 div.button-h-12,
+.tabs-2 div.button-h-13,
+.tabs-2 div.button-h-14,
+.tabs-2 div.button-h-15,
+.tabs-2 div.button-h-16,
+.tabs-2 div.button-h-17,
+.tabs-2 div.button-h-18,
+.tabs-2 div.button-h-19,
+.tabs-2 div.button-h-20,
+.tabs-2 div.button-h-21,
+.tabs-2 div.button-h-22,
+.tabs-2 div.button-h-23,
+.tabs-2 div.button-h-24,
+.tabs-2 div.button-h-25,
+.tabs-2 div.button-h-26,
+.tabs-2 div.button-h-27,
+.tabs-2 div.button-h-28,
+.tabs-2 div.button-h-29,
+.tabs-2 div.button-h-30 {
   position: absolute;
   top: 0;
   left: 0;
@@ -127,19 +142,39 @@
   box-shadow: none !important;
   border: none !important;
 }
-.tabs-2 div.button-h-1::after,.tabs-2 div.button-h-2::after,.tabs-2 div.button-h-3::after,
-.tabs-2 div.button-h-4::after,.tabs-2 div.button-h-5::after,.tabs-2 div.button-h-6::after,
-.tabs-2 div.button-h-7::after,.tabs-2 div.button-h-8::after,.tabs-2 div.button-h-9::after,
-.tabs-2 div.button-h-10::after,.tabs-2 div.button-h-11::after,.tabs-2 div.button-h-12::after,
-.tabs-2 div.button-h-13::after,.tabs-2 div.button-h-14::after,.tabs-2 div.button-h-15::after,
-.tabs-2 div.button-h-16::after,.tabs-2 div.button-h-17::after,.tabs-2 div.button-h-18::after,
-.tabs-2 div.button-h-19::after,.tabs-2 div.button-h-20::after,.tabs-2 div.button-h-21::after,
-.tabs-2 div.button-h-22::after,.tabs-2 div.button-h-23::after,.tabs-2 div.button-h-24::after,
-.tabs-2 div.button-h-25::after,.tabs-2 div.button-h-26,::after,.tabs-2 div.button-h-27::after,
-.tabs-2 div.button-h-28::after,.tabs-2 div.button-h-29::after,.tabs-2 div.button-h-30::after {
+.tabs-2 div.button-h-1::after,
+.tabs-2 div.button-h-2::after,
+.tabs-2 div.button-h-3::after,
+.tabs-2 div.button-h-4::after,
+.tabs-2 div.button-h-5::after,
+.tabs-2 div.button-h-6::after,
+.tabs-2 div.button-h-7::after,
+.tabs-2 div.button-h-8::after,
+.tabs-2 div.button-h-9::after,
+.tabs-2 div.button-h-10::after,
+.tabs-2 div.button-h-11::after,
+.tabs-2 div.button-h-12::after,
+.tabs-2 div.button-h-13::after,
+.tabs-2 div.button-h-14::after,
+.tabs-2 div.button-h-15::after,
+.tabs-2 div.button-h-16::after,
+.tabs-2 div.button-h-17::after,
+.tabs-2 div.button-h-18::after,
+.tabs-2 div.button-h-19::after,
+.tabs-2 div.button-h-20::after,
+.tabs-2 div.button-h-21::after,
+.tabs-2 div.button-h-22::after,
+.tabs-2 div.button-h-23::after,
+.tabs-2 div.button-h-24::after,
+.tabs-2 div.button-h-25::after,
+.tabs-2 div.button-h-26::after,
+.tabs-2 div.button-h-27::after,
+.tabs-2 div.button-h-28::after,
+.tabs-2 div.button-h-29::after,
+.tabs-2 div.button-h-30::after {
   font-family: FontAwesome;
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: auto;
   font-weight: normal;
   line-height: 1.6;
@@ -154,19 +189,37 @@
   top: 0;
   bottom: 0;
   margin: auto;
-  
-
 }
-.tabs-2 div.button-h-1::before,.tabs-2 div.button-h-2::before,.tabs-2 div.button-h-3::before,
-.tabs-2 div.button-h-4::before,.tabs-2 div.button-h-5::before,.tabs-2 div.button-h-6::before,
-.tabs-2 div.button-h-7::before,.tabs-2 div.button-h-8::before,.tabs-2 div.button-h-9::before,
-.tabs-2 div.button-h-10::before,.tabs-2 div.button-h-11::before,.tabs-2 div.button-h-12::before,
-.tabs-2 div.button-h-13::before,.tabs-2 div.button-h-14::before,.tabs-2 div.button-h-15::before,
-.tabs-2 div.button-h-16::before,.tabs-2 div.button-h-17::before,.tabs-2 div.button-h-18::before,
-.tabs-2 div.button-h-19::before,.tabs-2 div.button-h-20::before,.tabs-2 div.button-h-21::before,
-.tabs-2 div.button-h-22::before,.tabs-2 div.button-h-23::before,.tabs-2 div.button-h-24::before,
-.tabs-2 div.button-h-25::before,.tabs-2 div.button-h-26::before,.tabs-2 div.button-h-27::before,
-.tabs-2 div.button-h-28::before,.tabs-2 div.button-h-29::before,.tabs-2 div.button-h-30::before{
+.tabs-2 div.button-h-1::before,
+.tabs-2 div.button-h-2::before,
+.tabs-2 div.button-h-3::before,
+.tabs-2 div.button-h-4::before,
+.tabs-2 div.button-h-5::before,
+.tabs-2 div.button-h-6::before,
+.tabs-2 div.button-h-7::before,
+.tabs-2 div.button-h-8::before,
+.tabs-2 div.button-h-9::before,
+.tabs-2 div.button-h-10::before,
+.tabs-2 div.button-h-11::before,
+.tabs-2 div.button-h-12::before,
+.tabs-2 div.button-h-13::before,
+.tabs-2 div.button-h-14::before,
+.tabs-2 div.button-h-15::before,
+.tabs-2 div.button-h-16::before,
+.tabs-2 div.button-h-17::before,
+.tabs-2 div.button-h-18::before,
+.tabs-2 div.button-h-19::before,
+.tabs-2 div.button-h-20::before,
+.tabs-2 div.button-h-21::before,
+.tabs-2 div.button-h-22::before,
+.tabs-2 div.button-h-23::before,
+.tabs-2 div.button-h-24::before,
+.tabs-2 div.button-h-25::before,
+.tabs-2 div.button-h-26::before,
+.tabs-2 div.button-h-27::before,
+.tabs-2 div.button-h-28::before,
+.tabs-2 div.button-h-29::before,
+.tabs-2 div.button-h-30::before {
   position: absolute;
   top: 0;
   left: -2rem;
@@ -188,15 +241,36 @@
   transition: 0.18s ease-in-out;
   pointer-events: none;
 }
-.tabs-2 .header div:hover div.button-h-1::before,.tabs-2 .header div:hover div.button-h-2::before,.tabs-2 .header div:hover div.button-h-3::before,
-.tabs-2 .header div:hover div.button-h-4::before,.tabs-2 .header div:hover div.button-h-5::before,.tabs-2 .header div:hover div.button-h-6::before,
-.tabs-2 .header div:hover div.button-h-7::before,.tabs-2 .header div:hover div.button-h-8::before,.tabs-2 .header div:hover div.button-h-9::before,
-.tabs-2 .header div:hover div.button-h-10::before,.tabs-2 .header div:hover div.button-h-11::before,.tabs-2 .header div:hover div.button-h-12::before,
-.tabs-2 .header div:hover div.button-h-13::before,.tabs-2 .header div:hover div.button-h-14::before,.tabs-2 .header div:hover div.button-h-15::before,
-.tabs-2 .header div:hover div.button-h-16::before,.tabs-2 .header div:hover div.button-h-17::before,.tabs-2 .header div:hover div.button-h-18::before,
-.tabs-2 .header div:hover div.button-h-19::before,.tabs-2 .header div:hover div.button-h-20::before,.tabs-2 .header div:hover div.button-h-21::before,
-.tabs-2 .header div:hover div.button-h-22::before,.tabs-2 .header div:hover div.button-h-23::before,.tabs-2 .header div:hover div.button-h-24::before,
-.tabs-2 .header div:hover div.button-h-25::before,.tabs-2 .header div:hover div.button-h-26::before,.tabs-2 .header div:hover div.button-h-27::before,.tabs-2 .header div:hover div.button-h-28::before,.tabs-2 .header div:hover div.button-h-29::before,.tabs-2 .header div:hover div.button-h-30::before {
+.tabs-2 .header div:hover div.button-h-1::before,
+.tabs-2 .header div:hover div.button-h-2::before,
+.tabs-2 .header div:hover div.button-h-3::before,
+.tabs-2 .header div:hover div.button-h-4::before,
+.tabs-2 .header div:hover div.button-h-5::before,
+.tabs-2 .header div:hover div.button-h-6::before,
+.tabs-2 .header div:hover div.button-h-7::before,
+.tabs-2 .header div:hover div.button-h-8::before,
+.tabs-2 .header div:hover div.button-h-9::before,
+.tabs-2 .header div:hover div.button-h-10::before,
+.tabs-2 .header div:hover div.button-h-11::before,
+.tabs-2 .header div:hover div.button-h-12::before,
+.tabs-2 .header div:hover div.button-h-13::before,
+.tabs-2 .header div:hover div.button-h-14::before,
+.tabs-2 .header div:hover div.button-h-15::before,
+.tabs-2 .header div:hover div.button-h-16::before,
+.tabs-2 .header div:hover div.button-h-17::before,
+.tabs-2 .header div:hover div.button-h-18::before,
+.tabs-2 .header div:hover div.button-h-19::before,
+.tabs-2 .header div:hover div.button-h-20::before,
+.tabs-2 .header div:hover div.button-h-21::before,
+.tabs-2 .header div:hover div.button-h-22::before,
+.tabs-2 .header div:hover div.button-h-23::before,
+.tabs-2 .header div:hover div.button-h-24::before,
+.tabs-2 .header div:hover div.button-h-25::before,
+.tabs-2 .header div:hover div.button-h-26::before,
+.tabs-2 .header div:hover div.button-h-27::before,
+.tabs-2 .header div:hover div.button-h-28::before,
+.tabs-2 .header div:hover div.button-h-29::before,
+.tabs-2 .header div:hover div.button-h-30::before {
   transform: scale(1);
   left: 2.55rem;
 }
@@ -234,16 +308,36 @@
   .tabs-2 .header::-webkit-scrollbar {
     height: 8px;
   }
-  .tabs-2 div.button-h-1::before,.tabs-2 div.button-h-2::before,.tabs-2 div.button-h-3::before,
-  .tabs-2 div.button-h-4::before,.tabs-2 div.button-h-5::before,.tabs-2 div.button-h-6::before,
-  .tabs-2 div.button-h-7::before,.tabs-2 div.button-h-8::before,.tabs-2 div.button-h-9::before,
-  .tabs-2 div.button-h-10::before,.tabs-2 div.button-h-11::before,.tabs-2 div.button-h-12::before,
-  .tabs-2 div.button-h-13::before,.tabs-2 div.button-h-14::before,.tabs-2 div.button-h-15::before,
-  .tabs-2 div.button-h-16::before,.tabs-2 div.button-h-17::before,.tabs-2 div.button-h-18::before,
-  .tabs-2 div.button-h-19::before,.tabs-2 div.button-h-20::before,.tabs-2 div.button-h-21::before,
-  .tabs-2 div.button-h-22::before,.tabs-2 div.button-h-23::before,.tabs-2 div.button-h-24::before,
-  .tabs-2 div.button-h-25::before,.tabs-2 div.button-h-26::before,.tabs-2 div.button-h-27::before,
-  .tabs-2 div.button-h-28::before,.tabs-2 div.button-h-29::before,.tabs-2 div.button-h-30::before {
+  .tabs-2 div.button-h-1::before,
+  .tabs-2 div.button-h-2::before,
+  .tabs-2 div.button-h-3::before,
+  .tabs-2 div.button-h-4::before,
+  .tabs-2 div.button-h-5::before,
+  .tabs-2 div.button-h-6::before,
+  .tabs-2 div.button-h-7::before,
+  .tabs-2 div.button-h-8::before,
+  .tabs-2 div.button-h-9::before,
+  .tabs-2 div.button-h-10::before,
+  .tabs-2 div.button-h-11::before,
+  .tabs-2 div.button-h-12::before,
+  .tabs-2 div.button-h-13::before,
+  .tabs-2 div.button-h-14::before,
+  .tabs-2 div.button-h-15::before,
+  .tabs-2 div.button-h-16::before,
+  .tabs-2 div.button-h-17::before,
+  .tabs-2 div.button-h-18::before,
+  .tabs-2 div.button-h-19::before,
+  .tabs-2 div.button-h-20::before,
+  .tabs-2 div.button-h-21::before,
+  .tabs-2 div.button-h-22::before,
+  .tabs-2 div.button-h-23::before,
+  .tabs-2 div.button-h-24::before,
+  .tabs-2 div.button-h-25::before,
+  .tabs-2 div.button-h-26::before,
+  .tabs-2 div.button-h-27::before,
+  .tabs-2 div.button-h-28::before,
+  .tabs-2 div.button-h-29::before,
+  .tabs-2 div.button-h-30::before {
     display: none;
   }
 }
