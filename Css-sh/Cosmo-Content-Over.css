@@ -63,9 +63,13 @@
   }
 }
 /*------*/
-
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1300px) {
   .Ssylki-anime {
     width: calc(100% / 5);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .Ssylki-anime {
+    width: calc(100% / 6);
   }
 }
