@@ -564,7 +564,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   filter: blur(3px);
   animation: glowing 20s linear infinite;
   transition: opacity 0.4s ease-in-out;
-  bottom: -3.15rem;
+  bottom: -2.656rem;
   left: -0.1rem;
   right: -0.1rem;
   top: -0.1rem;
@@ -824,7 +824,7 @@ div.Ssylki-anime-v-1:hover::before {
   filter: blur(3px);
   animation: glowing 20s linear infinite;
   transition: opacity 0.4s ease-in-out;
-  bottom: -3.15rem;
+  bottom: -2.66rem;
   left: -0.1rem;
   right: -0.1rem;
   top: -0.1rem;
