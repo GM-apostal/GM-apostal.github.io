@@ -599,7 +599,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   right: 0;
   z-index: 4;
   margin: auto;
-  height: calc(100% + 3rem);
+  height: calc(100% + 2.5rem);
   border: solid 2px #373737;
   text-align: center;
   display: grid;
@@ -610,7 +610,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   box-shadow: 0 2px 6px 0px #00000040;
   background: #171616;
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 1em;
   color: #cce0d1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -860,7 +860,7 @@ div.Ssylki-anime-v-1:hover::before {
   right: 0;
   z-index: 4;
   margin: auto;
-  height: calc(100% + 3rem);
+  height: calc(100% + 2.5rem);
   border: solid 2px #373737;
   text-align: center;
   display: grid;
@@ -871,7 +871,7 @@ div.Ssylki-anime-v-1:hover::before {
   box-shadow: 0 2px 6px 0px #00000040;
   background: #171616;
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 1em;
   color: #cce0d1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1121,7 +1121,7 @@ div.Ssylki-Characters:hover .Text-1:after {
 .Ssylki-anime {
   position: relative;
   display: inline-flex;
-  width: calc(100% / 6);
+  width: calc(100% / 1);
   vertical-align: top;
   height: 100%;
   padding: 6px 6px 6px 8px;
@@ -1257,7 +1257,7 @@ div.Ssylki-anime:hover > strong > a::before {
   align-items: flex-end;
   justify-content: center;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1em;
   color: #cce0d1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1282,22 +1282,17 @@ div.Ssylki-anime:hover .Text-2 {
     opacity: 0;
   }
 }
-@media screen and (min-width: 50px) {
-  .Ssylki-anime {
-    width: calc(100% / 1);
-  }
-}
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 480px) {
   .Ssylki-anime {
     width: calc(100% / 2);
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   .Ssylki-anime {
     width: calc(100% / 3);
   }
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 920px) {
   .Ssylki-anime {
     width: calc(100% / 4);
   }
