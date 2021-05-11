@@ -4,7 +4,7 @@
   display: flex;
   max-width: var(--tabs-2-width);
   margin: var(--tabs-2-margin);
-  border: 1px solid rgba(var(--tabs-2-1px-border-sol), 1);
+  border: var(--tabs-2-border-solid) solid rgba(var(--tabs-2-border-sol-color), 1);
   border-radius: var(--tabs-2-border-radius);
   font-size: var(--tabs-2-font-size);
   line-height: var(--tabs-2-line-height);
@@ -16,7 +16,7 @@
   display: flex;
   width: auto;
   user-select: none;
-  border-right: 1px solid rgba(var(--tabs-2-1px-border-sol), 1);
+  border-right: inherit;
   background: rgba(var(--header-background), 0.15);
   text-shadow: 0 1px 2px rgb(var(--header-text-shadow), 1);
   border-top-right-radius: 0;
@@ -112,7 +112,8 @@
 .tabs-2 div.button-h-16,.tabs-2 div.button-h-17,.tabs-2 div.button-h-18,
 .tabs-2 div.button-h-19,.tabs-2 div.button-h-20,.tabs-2 div.button-h-21,
 .tabs-2 div.button-h-22,.tabs-2 div.button-h-23,.tabs-2 div.button-h-24,
-.tabs-2 div.button-h-25 {
+.tabs-2 div.button-h-25,.tabs-2 div.button-h-26,.tabs-2 div.button-h-27,
+.tabs-2 div.button-h-28,.tabs-2 div.button-h-29,.tabs-2 div.button-h-30 {
   position: absolute;
   top: 0;
   left: 0;
@@ -134,7 +135,8 @@
 .tabs-2 div.button-h-16::after,.tabs-2 div.button-h-17::after,.tabs-2 div.button-h-18::after,
 .tabs-2 div.button-h-19::after,.tabs-2 div.button-h-20::after,.tabs-2 div.button-h-21::after,
 .tabs-2 div.button-h-22::after,.tabs-2 div.button-h-23::after,.tabs-2 div.button-h-24::after,
-.tabs-2 div.button-h-25::after {
+.tabs-2 div.button-h-25::after,.tabs-2 div.button-h-26,::after,.tabs-2 div.button-h-27::after,
+.tabs-2 div.button-h-28::after,.tabs-2 div.button-h-29::after,.tabs-2 div.button-h-30::after {
   font-family: FontAwesome;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
@@ -153,11 +155,7 @@
   bottom: 0;
   margin: auto;
   
-  
 
-    
-    
-  
 }
 .tabs-2 div.button-h-1::before,.tabs-2 div.button-h-2::before,.tabs-2 div.button-h-3::before,
 .tabs-2 div.button-h-4::before,.tabs-2 div.button-h-5::before,.tabs-2 div.button-h-6::before,
@@ -167,7 +165,8 @@
 .tabs-2 div.button-h-16::before,.tabs-2 div.button-h-17::before,.tabs-2 div.button-h-18::before,
 .tabs-2 div.button-h-19::before,.tabs-2 div.button-h-20::before,.tabs-2 div.button-h-21::before,
 .tabs-2 div.button-h-22::before,.tabs-2 div.button-h-23::before,.tabs-2 div.button-h-24::before,
-.tabs-2 div.button-h-25::before {
+.tabs-2 div.button-h-25::before,.tabs-2 div.button-h-26::before,.tabs-2 div.button-h-27::before,
+.tabs-2 div.button-h-28::before,.tabs-2 div.button-h-29::before,.tabs-2 div.button-h-30::before{
   position: absolute;
   top: 0;
   left: -2rem;
@@ -176,7 +175,7 @@
   margin: auto;
   height: 21px;
   font-size: var(--div-button-h-before-font-size);
-  color: rgb(var(--header-div-color), 1);
+  color: rgb(var(--div-button-h-before-color), 1);
   line-height: 1.65;
   background: rgba(var(--div-button-h-before-background), 0.9);
   box-shadow: 0 0 5px rgba(var(--div-button-h-before-box-shadow), 0.1);
@@ -197,7 +196,7 @@
 .tabs-2 .header div:hover div.button-h-16::before,.tabs-2 .header div:hover div.button-h-17::before,.tabs-2 .header div:hover div.button-h-18::before,
 .tabs-2 .header div:hover div.button-h-19::before,.tabs-2 .header div:hover div.button-h-20::before,.tabs-2 .header div:hover div.button-h-21::before,
 .tabs-2 .header div:hover div.button-h-22::before,.tabs-2 .header div:hover div.button-h-23::before,.tabs-2 .header div:hover div.button-h-24::before,
-.tabs-2 .header div:hover div.button-h-25::before {
+.tabs-2 .header div:hover div.button-h-25::before,.tabs-2 .header div:hover div.button-h-26::before,.tabs-2 .header div:hover div.button-h-27::before,.tabs-2 .header div:hover div.button-h-28::before,.tabs-2 .header div:hover div.button-h-29::before,.tabs-2 .header div:hover div.button-h-30::before {
   transform: scale(1);
   left: 2.55rem;
 }
@@ -216,7 +215,7 @@
     white-space: nowrap;
     padding: 0.5rem 0.5rem 0;
     border-radius: 0.65rem 0.65rem 0 0;
-    border-bottom: 1px solid rgba(var(--tabs-2-1px-border-sol), 1);
+    border-bottom: inherit;
     border-right: none;
     text-align: center;
   }
@@ -243,7 +242,8 @@
   .tabs-2 div.button-h-16::before,.tabs-2 div.button-h-17::before,.tabs-2 div.button-h-18::before,
   .tabs-2 div.button-h-19::before,.tabs-2 div.button-h-20::before,.tabs-2 div.button-h-21::before,
   .tabs-2 div.button-h-22::before,.tabs-2 div.button-h-23::before,.tabs-2 div.button-h-24::before,
-  .tabs-2 div.button-h-25::before {
+  .tabs-2 div.button-h-25::before,.tabs-2 div.button-h-26::before,.tabs-2 div.button-h-27::before,
+  .tabs-2 div.button-h-28::before,.tabs-2 div.button-h-29::before,.tabs-2 div.button-h-30::before {
     display: none;
   }
 }
