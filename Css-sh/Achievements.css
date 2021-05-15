@@ -117,7 +117,7 @@
   }
   #profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
     width: 50%;
-    display: block;
+    display: block!important;
   }
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
     left: 0.725rem;
