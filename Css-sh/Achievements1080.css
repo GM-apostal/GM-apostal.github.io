@@ -13,7 +13,7 @@
     display: block!important;
   }
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
-    left: 0.725rem;
+    left: 0.725rem !important;
   }
   #profiles_show .b-achievement.is-badge:before {
     font-size: 0.8em; 
