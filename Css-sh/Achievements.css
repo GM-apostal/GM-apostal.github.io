@@ -104,11 +104,86 @@
     box-shadow: none !important;
   }
 }
+
+@media screen and (min-width: 1900px) {
+  #profiles_show .achievements .cc-3 > .c-column:first-child {
+    width: 25%;
+    margin-right: 0%;
+  }
+  #profiles_show .achievements .cc-3 > .c-column:nth-child(2) {
+    width: 25%;
+    margin-left: 0%;
+    float: right;
+  }
+  #profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
+    width: 50%;
+    display: block;
+  }
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
+    left: 0.725rem;
+  }
+  #profiles_show .b-achievement.is-badge:before {
+    font-size: 0.8em; 
+  }
+  body#profiles_show .cc-franchises .b-badge img,
+  body#profiles_show .cc-franchises .b-badge .no-image {
+    height: 143.3725%;
+  }
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(1),
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(2),
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(3),
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(4) {
+    margin: 0 5.55% 0 -0.8%;
+  }
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(5),
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(6),
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(7),
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(8) {
+    margin: 0 5.55% 0 -0.8%;
+  }
+  #profiles_show .achievements .header {
+    border-radius: 100px /2px;
+  }
+  #profiles_show .block.achievements .cc-3 {
+    padding: 5px 10px 0;
+  }
+ #profiles_show .b-achievement .c-image .inner a img,
+ #profiles_show .cc-franchises .b-badge img {
+  image-rendering: unset !important;
+  }
+}
+
+
 @media screen and (min-width: 3600px) {
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
     width: 7%;
   }
 }
+
+#profiles_show .b-achievement[data-hint^="Цундере 3 уровня"] .c-image .inner a img,
+#profiles_show .b-achievement[data-hint^="Космос 4 уровня"] .c-image .inner a img,
+#profiles_show .b-achievement[data-hint^="Детектив 4 уровня"] .c-image .inner a img {
+  object-position: 100% center;
+}
+#profiles_show .b-achievement[data-hint^="Дзёсей 4 уровня"] .c-image .inner a img {
+  object-position: 20% center;
+}
+#profiles_show .b-achievement[data-hint^="Драма 4 уровня"] .c-image .inner a img {
+  object-position: 28% center;
+}
+#profiles_show .b-achievement[data-hint^="Повседневность 4 уровня"] .c-image .inner a img {
+  object-position: 90% center;
+}
+#profiles_show .b-achievement[data-hint^="Запретная любовь 1 уровня"] .c-image .inner a img {
+  object-position: 30% center;
+}
+#profiles_show .b-achievement[data-hint^="Наши в аниме 1 уровня"] .c-image .inner a img {
+  object-position: 75% center;
+}
+
+
+
+
 #profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
   margin-bottom: 0;
 }
