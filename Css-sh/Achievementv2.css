@@ -1,0 +1,132 @@
+@media screen and (min-width: 1025px) {
+  #profiles_show .b-achievement.is-badge .c-image {
+    padding-top: 100%;
+  }
+  #profiles_show .b-achievement.is-badge .c-image,
+  #profiles_show .b-achievement .c-image .inner a img,
+  #profiles_show .b-achievement .c-image .inner a .no-image,
+  #profiles_show .b-achievement .c-image .inner a .border,
+  #profiles_show .b-achievement .c-image .inner,
+  #profiles_show .achievements .cc-achievements .b-achievement,
+  #profiles_show .b-achievement > .c-image > .inner:after {
+    border-radius: 16rem;
+    overflow: hidden;
+  }
+  #profiles_show .b-achievement .c-image .inner {
+    transform: scale(1.009);
+  }
+  #profiles_show .b-achievement .c-image .inner a img,
+  #profiles_show .b-achievement .c-image .inner a .no-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #profiles_show .achievements .cc-achievements .b-achievement {
+    padding: 2px;
+    border: 2px solid rgba(var(--block-color), 0.6);
+  }
+  #profiles_show .b-achievement.is-badge:hover:before {
+    border-radius: 16rem;
+    padding-top: 0.25rem;
+  }
+  #profiles_show .b-achievement.is-badge::before {
+    top: 0;
+    height: 100%;
+    padding: 1.5rem 0.5rem 0;
+    line-height: 1.25;
+    font-size: 1em;
+    border-radius: 16rem;
+    transition: 0s, padding 0.4s, opacity 0.4s;
+  }
+  body#profiles_show .cc-franchises .b-badge img,
+  body#profiles_show .cc-franchises .b-badge .no-image {
+    border-radius: 0.65rem;
+    height: 88%;
+    width: 1875%;
+    max-width: 100rem;
+    max-height: 100rem;
+    min-width: 5rem;
+    min-height: 5rem;
+    object-fit: cover;
+    object-position: center;
+    padding: 2px;
+    border: 2px solid rgba(var(--block-color), 0.6);
+  }
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
+    margin: 0 15.85% -0.85% 0;
+    width: 0.85%;
+    height: initial;
+    padding: 0;
+    left: 0.25rem;
+  }
+  #profiles_show .cc-franchises {
+    display: inline-flex;
+    justify-content: end;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #4a4a4a63 #31313021;
+  }
+  #profiles_show .cc-franchises::-webkit-scrollbar {
+    height: 6px;
+  }
+  #profiles_show .cc-franchises::-webkit-scrollbar-track {
+    display: block;
+    background-color: #4a4a4a26;
+    border-radius: 0.3rem;
+  }
+  #profiles_show .b-badge::before {
+    content: attr(data-progress) "%";
+    position: absolute;
+    display: flex !important;
+    width: 2170%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 0;
+    margin: -76.15% -148% 0;
+    border-radius: 0.6rem;
+    z-index: 22;
+    opacity: 0;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.845);
+  }
+  #profiles_show .b-badge:hover::before {
+    background-color: rgba(var(--menu-back), 0.5);
+    box-shadow: none !important;
+    opacity: 1;
+  }
+  #profiles_show [class="tipsy tipsy-normal tipsy-s"] {
+    margin-left: 6.8% !important;
+  }
+}
+
+#profiles_show .b-achievement[data-hint^="Цундере 3 уровня"] .c-image .inner a img,
+#profiles_show .b-achievement[data-hint^="Космос 4 уровня"] .c-image .inner a img,
+#profiles_show .b-achievement[data-hint^="Детектив 4 уровня"] .c-image .inner a img {
+  object-position: 100% center;
+}
+#profiles_show .b-achievement[data-hint^="Дзёсей 4 уровня"] .c-image .inner a img {
+  object-position: 20% center;
+}
+#profiles_show .b-achievement[data-hint^="Драма 4 уровня"] .c-image .inner a img {
+  object-position: 28% center;
+}
+#profiles_show .b-achievement[data-hint^="Повседневность 4 уровня"] .c-image .inner a img {
+  object-position: 90% center;
+}
+#profiles_show .b-achievement[data-hint^="Запретная любовь 1 уровня"] .c-image .inner a img {
+  object-position: 30% center;
+}
+#profiles_show .b-achievement[data-hint^="Наши в аниме 1 уровня"] .c-image .inner a img {
+  object-position: 75% center;
+}
+
+#profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
+  margin-bottom: 0;
+}
