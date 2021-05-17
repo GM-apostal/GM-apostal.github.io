@@ -39,8 +39,8 @@
     border-radius: 16rem;
     transition: 0s, padding 0.4s, opacity 0.4s;
   }
-  body#profiles_show .cc-franchises .b-badge img,
-  body#profiles_show .cc-franchises .b-badge .no-image {
+  body#profiles_show .cc-franchises .b-badge img {
+ /*body#profiles_show .cc-franchises .b-badge .no-image {*/
     position: relative;
     left: -0.4rem;
     height: 85.5%;
@@ -58,8 +58,8 @@
     box-shadow: 0 0 0 2px rgba(var(--block-color), 0.6);
     transition: filter 0.35s ease-in-out;
   }
-  body#profiles_show .cc-franchises .b-badge:hover img,
-  body#profiles_show .cc-franchises .b-badge:hover .no-image {
+  body#profiles_show .cc-franchises .b-badge:hover img {
+  /*body#profiles_show .cc-franchises .b-badge:hover .no-image {*/
     filter: brightness(60%) contrast(105%) grayscale(50%);
   }
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
