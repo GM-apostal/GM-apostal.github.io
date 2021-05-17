@@ -42,16 +42,18 @@
   body#profiles_show .cc-franchises .b-badge img,
   body#profiles_show .cc-franchises .b-badge .no-image {
     border-radius: 0.65rem;
-    height: 88%;
+    height: 85.5%;
     width: 1875%;
     max-width: 100rem;
     max-height: 100rem;
     min-width: 5rem;
     min-height: 5rem;
+    margin: 2px 0 0 0;
+    padding: 2px;
     object-fit: cover;
     object-position: center;
-    padding: 2px;
-    border: 2px solid rgba(var(--block-color), 0.6);
+    border: none;
+    box-shadow: 0 0 0 2px rgba(var(--block-color), 0.6);
     transition: filter 0.35s ease-in-out;
   }
   body#profiles_show .cc-franchises .b-badge:hover img,
@@ -59,7 +61,7 @@
     filter: brightness(60%) contrast(105%) grayscale(50%);
   }
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
-    margin: 0 15.85% -0.85% 0;
+    margin: 0 15.85% -0.9% 0;
     width: 0.85%;
     height: initial;
     padding: 0;
