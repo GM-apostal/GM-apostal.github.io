@@ -87,6 +87,7 @@
   #profiles_show .b-badge::before {
     display: none !important;
   }
+}
  /*#profiles_show .b-badge::before {
     content: attr(data-progress) "%";
     position: absolute;
