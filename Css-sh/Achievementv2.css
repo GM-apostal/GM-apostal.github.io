@@ -109,10 +109,7 @@
   #profiles_show .b-badge::before {
     width: 1848%;
     height: 85.5%;
-    left: 0;
     margin: 15% 0 0 15%;
-    background: #5d7890;
-    opacity: 1;
   }
 }
 
