@@ -41,7 +41,7 @@
   }
   body#profiles_show .cc-franchises .b-badge img,
   body#profiles_show .cc-franchises .b-badge .no-image {
-    border-radius: 0.65rem;
+    border-radius: 0.5rem;
     height: 85.5%;
     width: 1875%;
     max-width: 100rem;
