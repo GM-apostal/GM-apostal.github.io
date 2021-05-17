@@ -88,7 +88,7 @@
     top: 0;
     padding: 0;
     margin: 22.65% 0 0 22.65%;
-    border-radius: 0.6rem;
+    border-radius: 0.48rem;
     z-index: 22;
     opacity: 0;
     font-size: 1em;
@@ -105,6 +105,17 @@
     margin-left: 6.8% !important;
   }
 }
+@media screen and (min-width: 2250px) {
+  #profiles_show .b-badge::before {
+    width: 1848%;
+    height: 85.5%;
+    left: 0;
+    margin: 15% 0 0 15%;
+    background: #5d7890;
+    opacity: 1;
+  }
+}
+
 #profiles_show .b-achievement[data-hint^="Цундере 3 уровня"] .c-image .inner a img,
 #profiles_show .b-achievement[data-hint^="Космос 4 уровня"] .c-image .inner a img,
 #profiles_show .b-achievement[data-hint^="Детектив 4 уровня"] .c-image .inner a img {
