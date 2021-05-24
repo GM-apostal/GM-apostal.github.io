@@ -48,17 +48,18 @@
     max-height: 100rem;
     min-width: 5rem;
     min-height: 5rem;
-    margin: 2px 0 0 0;
+    margin: 3px 0 0 0;
     padding: 2px;
     border-radius: 0.5rem;
     object-fit: cover;
     object-position: center;
     border: none;
     box-shadow: 0 0 0 2px rgba(var(--block-color), 0.6);
-    transition: filter 0.35s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
   }
   body#profiles_show .cc-franchises .b-badge:hover img {
-    filter: brightness(60%) contrast(105%) grayscale(50%);
+  filter: brightness(60%) contrast(105%) grayscale(50%);
+  box-shadow: -20px 20px 0 -17px rgba(62, 62, 62, 0.85), 20px -20px 0 -17px #383838, 20px 20px 0 -20px rgba(0, 0, 0, 0.8), 0 0 0 2px rgba(0, 0, 0, 0.8);
   }
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
     margin: 0 15.85% -0.9% 0;
