@@ -1277,6 +1277,12 @@ div.Ssylki-anime:hover .Text-2 {
 .Ssylki-Characters span {
      display: none;
 }
+.Ssylki-anime .b-link,
+.Ssylki-anime-v-1 .b-link,
+.Ssylki-anime-v-1-standard .b-link,
+.Ssylki-Characters .b-link {
+  font-size: 0;
+}
 @media screen and (max-width: 248px) {
   div.Ssylki-anime .Text-2 {
     opacity: 0;
