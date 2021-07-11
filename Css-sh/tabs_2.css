@@ -35,7 +35,7 @@
   height: var(--tabs-2-header-div-height);
   border-radius: var(--tabs-2-header-div-border-radius);
   line-height: 1.65;
-  font-size: var(--header-div-font-size);
+  font-size: var(--tabs-2-header-div-font-size);
   overflow: visible;
   text-align: center;
   align-items: center;
