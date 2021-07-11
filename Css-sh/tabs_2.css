@@ -31,8 +31,8 @@
 .tabs-2 .header div {
   display: flex;
   position: relative;
-  width: var(--header-div-width);
-  height: var(--header-div-height);
+  width: var(--tabs-2-header-div-width);
+  height: var(--tabs-2-header-div-height);
   border-radius: var(--header-div-border-radius);
   line-height: 1.65;
   font-size: var(--header-div-font-size);
