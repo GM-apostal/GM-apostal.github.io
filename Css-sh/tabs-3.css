@@ -112,7 +112,7 @@
     overflow-y: hidden;
     width: 100%;
     white-space: nowrap;
-    padding: 0.5rem 0.5rem 0;
+    padding: 0.5rem 0.5rem 0.5rem;
     border-radius: 0.65rem 0.65rem 0 0;
     border-bottom: inherit;
     border-right: none;
