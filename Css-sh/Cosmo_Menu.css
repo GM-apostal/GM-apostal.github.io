@@ -29,10 +29,8 @@
   .l-top_menu-v2 .menu-dropdown.main .icon-ranobe::before {content: "book";}
   .l-top_menu-v2 .menu-dropdown.main .icon-clubs::before {content: "pets";}
   .l-top_menu-v2 .menu-dropdown.main .icon-collections::before {content: "widgets";}
-  
-  .l-top_menu-v2 .menu-dropdown.main .icon-reviews::before {content: "rate_review";}
+  /*.l-top_menu-v2 .menu-dropdown.main .icon-reviews::before {content: "rate_review";}*/
   .l-top_menu-v2 .menu-dropdown.main .icon-critiques::before{content: "rate_review";}
-  
   .l-top_menu-v2 .menu-dropdown.main .icon-forum::before {content: "forum";}
   .l-top_menu-v2 .menu-dropdown.main .icon-calendar::before {content: "today";}
   .l-top_menu-v2 .menu-dropdown.main .icon-contests::before {content: "equalizer"; transform: scale(-1, 1);}
