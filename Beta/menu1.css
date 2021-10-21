@@ -160,6 +160,7 @@
 }
 .l-top_menu-v2 .logo-container .glyph {
     margin: 0 1em 0 0;
+     filter: invert(0.85);
 }
 .l-top_menu-v2 .logo-container .logo {
     display: none;
@@ -238,7 +239,7 @@
     border-radius: 50%;
 }
 .l-top_menu-v2 .submenu {
-    background-color: #302b51;
+    background-color: white;
     border: 0;
     border-color: #302b52;
     border-radius: 0 0 0.5rem 0.5rem;
