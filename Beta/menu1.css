@@ -439,13 +439,12 @@
     display: block;
     padding: 0 48px;
     margin: auto 0;
-    background: #342f55;
     background: rgba(241, 241, 243, 0.12);
     border: 0;
     border-radius: 3px;
     color: inherit;
     font-size: inherit;
-    line-height: 40px;
+    line-height: 35px;
 }
 .l-top_menu-v2 .global-search input::placeholder {
     color: inherit;
