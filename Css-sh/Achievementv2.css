@@ -71,7 +71,8 @@
   }
   #profiles_show .cc-franchises {
     display: inline-flex;
-    justify-content: end;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
     overflow-x: auto;
     overflow-y: hidden;
     user-select: none;
