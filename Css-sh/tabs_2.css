@@ -93,7 +93,16 @@
 .tabs-2 .b-image img {
   width: 100%;
 }
-.hr {
+.hr,
+.hr-2,
+.hr-3,
+.hr-4,
+.hr-5,
+.hr-6,
+.hr-7,
+.hr-8,
+.hr-9,
+.hr-10 {
   height: var(--hr-height-1px);
   margin: var(--hr-margin);
   background-image: -webkit-linear-gradient(left, transparent, rgb(var(--hr), 1), transparent);
