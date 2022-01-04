@@ -33,6 +33,7 @@
   position: relative;
   width: var(--tabs-2-header-div-width);
   height: var(--tabs-2-header-div-height);
+  min-height: var(--header-div-min-height);
   border-radius: var(--tabs-2-header-div-border-radius);
   line-height: 1.65;
   font-size: var(--tabs-2-header-div-font-size);
