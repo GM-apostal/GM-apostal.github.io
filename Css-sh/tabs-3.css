@@ -33,6 +33,7 @@
   position: relative;
   width: var(--header-div-width);
   height: var(--header-div-height);
+  min-height: var(--header-div-min-height);
   border-radius: var(--header-div-border-radius);
   line-height: 1.65;
   font-size: var(--header-div-font-size);
