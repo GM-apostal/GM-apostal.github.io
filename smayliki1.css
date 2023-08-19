@@ -89,6 +89,7 @@
 .b-shiki_editor .smileys img {
     height: 50px;
     margin: 0 4px 4px 0;
+    border-radius: 0.25rem;
 }
 
 .b-shiki_editor .smileys img[alt=":interested:"] {
