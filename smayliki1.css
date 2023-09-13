@@ -6,12 +6,11 @@
     height: 360px;
     padding: 0 10px;
     margin: -370px 360px 0;
-    background-color: rgba(var(--menu-back), 0.8);
+    background-color: rgba(var(--menu-back), 1);
     box-shadow: 0 2px 6px 2px #00000026;
     border-radius: 3px;
     z-index: 9;
     overflow: auto;
-    backdrop-filter: blur(4px);
 }
 
 @media screen and (max-width: 380px) {
